@@ -168,7 +168,7 @@ Make sure that all grammar rule definitions are done before 'performSelfAnalysis
 <script src='`+n+`src/diagrams_behavior.js'><\/script>
 <script src='`+n+`src/main.js'><\/script>
 `,u=`
-<div id="diagrams" align="center"></div>    
+<div id="diagrams" align="start"></div>    
 `,g=`
 <script>
     window.serializedGrammar = `+JSON.stringify(r,null,"  ")+`;
